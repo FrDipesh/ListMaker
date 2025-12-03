@@ -15,6 +15,7 @@ public class Lab11 {
         listMaker.add("Creamy Mac and Cheese");
         listMaker.add("Top School");
         listMaker.add("Type Stuff");
-        listMaker.add("Not Home");
+        listMaker.add("Home");
     }
+
 }
