@@ -16,6 +16,8 @@ public class Lab11 {
         listMaker.add("Top School");
         listMaker.add("Type Stuff");
         listMaker.add("Home");
+
+        System.out.println();
     }
 
 }
