@@ -23,8 +23,4 @@ public class Lab11 {
         String addItem = InputHelper.getNonZeroLenString(scan,"Enter a word your want to add to the list: ");
         listMaker.add(addItem);
     }
-
-
-
-
 }
