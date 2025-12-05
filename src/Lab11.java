@@ -2,10 +2,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Lab11 {
-    Scanner scan = new Scanner(System.in);
     static ArrayList<String> listMaker = new ArrayList<String>();
+    Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
         listMaker.add("Husky");
         listMaker.add("Tasty Sweets");
         listMaker.add("Game");
@@ -17,7 +19,9 @@ public class Lab11 {
         listMaker.add("Type Stuff");
         listMaker.add("Home");
 
-        System.out.println();
+
+        String addItem = InputHelper.getNonZeroLenString(scan,"Enter a word your want to add to the list: ");
+        listMaker.add(addItem);
     }
 
 
